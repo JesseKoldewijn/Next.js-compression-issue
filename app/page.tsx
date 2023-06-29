@@ -1,4 +1,9 @@
 /** Add your relevant code here for the issue to reproduce */
-export default function Home() {
-  return null
-}
+const Home = () => {
+	return (
+		<div>
+			<h1>Homepage</h1>
+		</div>
+	);
+};
+export default Home;
